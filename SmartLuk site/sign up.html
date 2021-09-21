@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="sign up.css">
+</head>
+<body>
+    <section class="header">
+        <div>
+            <h3 class="logo">SmartLuk</h3>
+        </div>
+    </section>
+
+    
+
+    <form class="form">
+        <h2 class="welcome">Welcome</h2>
+        <div class="sign-up">
+            <input type="radio" class="signup-radio"
+            name="radio" onClick="showSignUp()">
+            <label for="signup">Are you new here? Create account.</label>
+
+            <div class="signup-form">
+                <div class="input-field">
+                    <input type="text" class="name input"
+                id="name" placeholder="Name">
+                    <small>Error Message</small>
+                </div>
+                
+                <div class="input-field">
+                    <input type="email" class="email input"
+                id="new-email" placeholder="Email">
+                    <small>Error Message</small>
+                </div>
+                
+                <div class="input-field">
+                    <input type="password" class="password input"
+                id="new-password" placeholder="Create a password">
+                    <small>Error Message</small>
+                </div>
+                <br>
+
+                <button type="submit" class="submit signup-btn" 
+                id="signup-btn">Continue</button>
+                
+            </div>
+
+        </div>
+
+        <div class="sign-in">
+            <input type="radio" class="signin-radio"
+            name="radio" onClick="showSignIn()">
+            <label for="name">Already a customer? Sign in.</label>
+
+            <div class="signin-form">
+                <div class="input-field">
+                    <input type="email" class="email input"
+                id="email" placeholder="Email">
+                    <small>Error Message</small>
+                </div>
+                
+                <div class="input-field">
+                    <input type="password" class="password input"
+                id="password" placeholder="Enter your password">
+                    <small>Error Message</small>
+                </div>
+                
+
+                <button type="submit" class="submit signin-btn"
+                id="signin-btn">Continue</button>
+            </div>
+        </div>
+    </form>
+
+    <section class="footer">
+        <div class="footer-grid">
+            <div class="">
+                <P>Contact: +12340000</P>
+                <P>info@smartluk.com</P>
+            </div>
+            <div class="">
+                <p>Terms</p>
+                <P>Privacy</P>
+            </div>
+        </div>
+        <p class="copyright">©2021, Smartluk.com</p>
+    </section>
+
+    <script src="sign up.js"></script>
+</body>
+</html>

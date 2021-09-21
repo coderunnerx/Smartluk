@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Little Drop Ecommerce- Shop</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='shop.css'>
+    
+</head>
+<body>
+   <section  class="header">
+       <div>
+           <h3 class="logo">SmartLuk</h3>
+       </div>
+       <div class="header-right">
+           <div><p>Sign In</p></div>
+           <div class="cart" onClick="displayModal()">
+               <img src="images/cart.svg" class="cart-svg">
+               <p class="cart-qty">0</p>
+           </div>
+       </div>
+   </section>
+
+   
+
+
+   <section class="welcome">
+       <div class="name-caption">
+           <h2 class="name">SmartLuk</h2>
+           <p class="caption">Giving you the smart look you soo desire</p>
+       </div>
+   </section>
+   <section class="shop"></section>
+   
+
+   <section class="shop">
+       <h1 class="item-title">ITEMS</h1>
+       <div class="items-grid">
+           <div>
+           <div class="item-card">
+               <img class="item-img" src="images/product1.png" alt="">
+               <h2 class="text-overlay">$2000</h2> 
+           </div>
+           <h2 class="item-name">AIR PODS</h2>
+           <a href="#" class="add-to-cart one" onClick="addToCart(0)">ADD TO CART</a>
+        </div>
+
+        <div>
+           <div class="item-card">
+            <img class="item-img" src="images/product2.png" alt="">
+            <h2 class="text-overlay">$3500</h2>
+           </div>
+           <h2 class="item-name">AIR PODS</h2>
+           <a href="#" class="add-to-cart two"  onClick="addToCart(1)">ADD TO CART</a>
+        </div>
+
+        <div>
+            <div class="item-card">
+                <img class="item-img" src="images/product2.png" alt="">
+                <h2 class="text-overlay">$8000</h2>
+                
+            </div>
+            <h2 class="item-name">AIR PODS</h2>
+            <a href="#" class="add-to-cart three" onClick="addToCart(2)">ADD TO CART</a>
+            
+        </div>
+
+        <div>
+            <div class="item-card">
+                <img class="item-img" src="images/product2.png" alt="">
+                <h2 class="text-overlay">$1200</h2>  
+            </div>
+            <h2 class="item-name">AIR PODS</h2>
+            <a href="#" class="add-to-cart four" onClick="addToCart(3)">ADD TO CART</a>
+            
+        </div>
+
+        <div>
+            <div class="item-card">
+                <img class="item-img" src="images/product4.png" alt="">
+                <h2 class="text-overlay">$1200</h2>  
+            </div>
+            <h2 class="item-name">AIR PODS</h2>
+            <a href="#" class="add-to-cart five" onClick="addToCart(4)">ADD TO CART</a>
+            
+        </div>
+
+        <div>
+            <div class="item-card">
+                <img class="item-img" src="images/product5.png" alt="">
+                <h2 class="text-overlay">$1200</h2>  
+            </div>
+            <h2 class="item-name">AIR PODS</h2>
+            <a href="#" class="add-to-cart six" onClick="addToCart(5)">ADD TO CART</a>
+            
+        </div>
+
+
+       </div>
+   </section>
+
+   <section class="footer">
+       <h3 class="footer-caption">Contact Us</h3>
+       <div class="footer-grid">
+           <div>
+               <h3 class="footer-logo">SmarkLuk</h3>
+            </div>
+            <div class="">
+                <P>Contact: +12340000</P>
+                <P>info@smartluk.com</P>
+            </div>
+            <div class="">
+                <p>Terms</p>
+                <P>Privacy</P>
+            </div>
+        </div>
+        <p class="copyright">©2021, Smartluk.com</p>
+   </section>
+
+
+   <!-- cart modal section -->
+   <section class="cart-modal-container">
+       <div class="cart-modal-content">
+           <table class="cart-table">
+               <tr>
+                   <th>Product</th>
+                   <th>Price</th>
+                   <th>Quantity</th>
+               </tr>
+               
+            </table>
+            <div class="total-caption">
+                <h2>Total Amount to be Paid</h2>
+                <h2>$<span class="current-total">0</span></h2>
+            </div>
+
+            <div class="call-to-action">
+                <button class="continue-btn" onClick="closeModal()">Continue Shopping</button>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+       </div>
+   </section>
+   
+   <script src="shop.js"></script>
+</body>
+</html>
