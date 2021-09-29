@@ -1,3 +1,2 @@
-# Smartluk
-an ecommerce website
-I will be creating a new website
+# A  simple ecommerce site for Smartluk enterprise. Major improements will be coming soon. 
+ 

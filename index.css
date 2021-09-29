@@ -1,0 +1,80 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    background: #189ab4;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    font-size: 20px;
+}
+.logo, .sign-in{
+    color: #032636;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    color:#05445e;
+    background: #d4f1f4;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.name{
+    font-size: 80px;
+    
+    
+}
+.caption{
+    font-size: 40px;
+}
+.about{
+    background: #05445e ;
+    color: white;
+    margin: 100px 0px;
+    padding: 35px 8%;
+    font-size: 25px;
+    text-align: center;
+}
+.about-title{
+    color: #d4f1f4;
+}
+
+/*footer styles*/
+.footer{
+    background: #0d95b1;
+    color: #d4f1f4;
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.footer-caption{
+    text-align:center;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    align-items: center;
+
+}
+.footer-logo{
+    font-size: 30px;
+    color: #032636;
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+    color: #032636;
+}
